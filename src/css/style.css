@@ -1,0 +1,9 @@
+:root {
+    /* FONT SIZES */
+    /* max width between 800px and 1100px */
+    --default--font_size: 1em;
+    --welcome_title: 2.5em;
+    --today_title: 3.5em;
+    --recipe_title: 1.8em;
+    --news_title: 1.4em;
+}
