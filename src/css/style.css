@@ -1,9 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Comic+Neue&display=swap');
+
 :root {
+    /* FONTS */
+    --title-nav--font: 'Comic Neue', cursive;
+    --text--font: 'Baloo Chettan 2', cursive;
     /* FONT SIZES */
-    /* max width between 800px and 1100px */
     --default--font_size: 1em;
     --welcome_title: 2.5em;
     --today_title: 3.5em;
     --recipe_title: 1.8em;
     --news_title: 1.4em;
+    /* COLOR */
+    --orange: #fa9100;
+    --light-orange: #fecb41;
+    --gray: #424953;
+    --light-gray: #e9e9e9;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    position: relative;
+    height: 400px;
+}
+
+header div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange);
+    border-top: 7px solid var(--light-orange);
+    border-bottom: 7px solid var(--light-orange);
+    height: 80%;
+    width: 100%;
+    top: 100px;
+}
+
+nav img {
+    width: 110px;
+    padding-bottom: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    font-family: var(--title-nav--font);
+    gap: 40px;
+    padding-bottom: 80px;
+    font-size: 25px;
+    color: #FFF;
 }
