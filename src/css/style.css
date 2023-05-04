@@ -2,15 +2,22 @@
 
 :root {
     /* FONTS */
+
     --title-nav--font: 'Comic Neue', cursive;
     --text--font: 'Baloo Chettan 2', cursive;
+
+
     /* FONT SIZES */
+
     --default--font_size: 1em;
     --welcome_title: 2.5em;
     --today_title: 3.5em;
     --recipe_title: 1.8em;
     --news_title: 1.4em;
-    /* COLOR */
+
+
+    /* COLORS */
+
     --orange: #fa9100;
     --light-orange: #fecb41;
     --gray: #424953;
@@ -29,9 +36,6 @@ header {
 
 header div {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: var(--orange);
     border-top: 7px solid var(--light-orange);
     border-bottom: 7px solid var(--light-orange);
@@ -40,9 +44,16 @@ header div {
     top: 100px;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: unset;
+}
+
 nav img {
     width: 110px;
-    padding-bottom: 30px;
+    
 }
 
 nav ul {
@@ -53,4 +64,5 @@ nav ul {
     padding-bottom: 80px;
     font-size: 25px;
     color: #FFF;
+
 }
